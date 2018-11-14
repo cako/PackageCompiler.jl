@@ -267,7 +267,7 @@ to build a binary that runs the Julia code.
 
 Instead of a driver script, the generated system image can be embedded
 into a larger program, see the
-[Embedding Julia](https://docs.julialang.org/en/stable/manual/embedding/)
+[Embedding Julia](https://docs.julialang.org/en/v1/manual/embedding/)
 section of the Julia manual. Note that the name of the generated system
 image (`"libhello"` for `hello.jl`) is accessible from C in the
 preprocessor macro `JULIAC_PROGRAM_LIBNAME`.
